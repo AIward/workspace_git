@@ -7,7 +7,7 @@ COPY letter/requirements.txt .
 # 4. 설치
 RUN pip install --no-cache-dir -r requirements.txt
 # 5. 전체 코드 복사
-COPY letter/ .
+COPY . .
 # 6. 포트
 EXPOSE 8000
 # 7. 실행
